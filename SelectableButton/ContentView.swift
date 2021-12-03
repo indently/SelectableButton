@@ -16,11 +16,11 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 30) {
             Text("Is this an important question?")
-                .font(.system(size: 20))
+
             HStack {
                 SelectButton(
                     isSelected: $isSelected,
-                    color: .green,
+                    color: .blue,
                     text: "Yes")
                     .onTapGesture {
                         isSelected.toggle()
@@ -42,11 +42,8 @@ struct ContentView: View {
                     }
             }
             Button("Submit") {
-                if isSelected && !isSelected2 {
-                    alertText = "Correct answer!!!"
-                } else {
-                   alertText = "Nope!!!"
-                }
+                alertText = isSelected && !isSelected2 ? "Correct answer!!!" : "Nope!!!"
+           
                 showAlert.toggle()
                 
             }.alert(alertText, isPresented: $showAlert) {
@@ -57,10 +54,6 @@ struct ContentView: View {
             
         }
         .padding()
-    }
-    
-    func selection() {
-        
     }
 }
 
