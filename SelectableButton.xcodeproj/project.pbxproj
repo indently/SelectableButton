@@ -11,6 +11,7 @@
 		7AEEB637275A78370056003C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB636275A78370056003C /* ContentView.swift */; };
 		7AEEB639275A78390056003C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB638275A78390056003C /* Assets.xcassets */; };
 		7AEEB63C275A78390056003C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEB63B275A78390056003C /* Preview Assets.xcassets */; };
+		7AEEB643275A79520056003C /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEB642275A79520056003C /* SelectButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7AEEB636275A78370056003C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AEEB638275A78390056003C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEEB63B275A78390056003C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AEEB642275A79520056003C /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7AEEB634275A78370056003C /* SelectableButtonApp.swift */,
 				7AEEB636275A78370056003C /* ContentView.swift */,
+				7AEEB642275A79520056003C /* SelectButton.swift */,
 				7AEEB638275A78390056003C /* Assets.xcassets */,
 				7AEEB63A275A78390056003C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEEB643275A79520056003C /* SelectButton.swift in Sources */,
 				7AEEB637275A78370056003C /* ContentView.swift in Sources */,
 				7AEEB635275A78370056003C /* SelectableButtonApp.swift in Sources */,
 			);
