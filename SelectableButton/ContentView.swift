@@ -16,7 +16,6 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 30) {
             Text("Is this an important question?")
-
             HStack {
                 SelectButton(
                     isSelected: $isSelected,
@@ -42,7 +41,7 @@ struct ContentView: View {
                     }
             }
             Button("Submit") {
-                alertText = isSelected && !isSelected2 ? "Correct answer!!!" : "Nope!!!"
+                alertText = isSelected ? "Correct answer!!!" : "Nope!!!"
            
                 showAlert.toggle()
                 
@@ -51,7 +50,6 @@ struct ContentView: View {
                     // Enter logic
                 }
             }
-            
         }
         .padding()
     }
